@@ -1,6 +1,6 @@
 require 'erb'
 require 'rspec/core/formatters/base_text_formatter'
-
+#
 module Lazyman
 	class LazymanFormatter < ::RSpec::Core::Formatters::BaseTextFormatter
 		include ERB::Util # for the #h method
